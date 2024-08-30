@@ -7,8 +7,6 @@ use Illuminate\Http\Request;
 
 class BaseController extends Controller
 {
-
-    //  it is our base controller 
     public function sendResponse($result , $messages){
         $response = [
             'status' => true,
